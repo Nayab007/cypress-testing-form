@@ -5,7 +5,7 @@ describe("Form test", () => {
 
     cy.get('input[name="name"]')
       .type("Nayab")
-      .should("have.value", "Molly");
+      .should("have.value", "Nayab");
 
     cy.get('input[name="email"]')
       .type("nayab@gmail.com")
