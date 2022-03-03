@@ -9,7 +9,7 @@ describe("Form test", () => {
 
     cy.get('input[name="email"]')
       .type("nayab1@gmail.com")
-      .should("have.value", "nayab@gmail.com");
+      .should("have.value", "nayab1@gmail.com");
 
     cy.get("textarea")
       .type("Hello, How are you?")
