@@ -13,7 +13,7 @@ describe("Form test", () => {
 
     cy.get("textarea")
       .type("Hello, How are you?")
-      .should("have.value", "Mind you if I ask some silly question?");
+      .should("have.value", "Hello, How are you?");
 
     cy.server();
     cy.route({
